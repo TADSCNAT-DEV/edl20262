@@ -2,7 +2,7 @@
 Repositório da disciplina de Estrutura de Dados Lineares para o curso de Tecnologia e Análise Desenvolvimento de Sistemas, semestre 2026.2.
 
 ## Estrutura inicial do projeto
-Este projeto usa Maven para compilar e executar aplicações Java que demonstram estruturas de dados lineares.
+Este projeto usa Maven para compilar e executar aplicações Java que demonstram estruturas de dados lineares implementadas do zero (Lista, Pilha e Fila encadeadas).
 
 ### Requisitos
 - Java 17+

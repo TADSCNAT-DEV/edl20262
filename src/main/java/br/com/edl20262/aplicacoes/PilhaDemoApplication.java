@@ -1,19 +1,18 @@
 package br.com.edl20262.aplicacoes;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import br.com.edl20262.estruturas.PilhaEncadeada;
 
 public class PilhaDemoApplication {
 
     public static void main(String[] args) {
-        Deque<Integer> pilha = new ArrayDeque<>();
-        pilha.push(10);
-        pilha.push(20);
-        pilha.push(30);
+        PilhaEncadeada<Integer> pilha = new PilhaEncadeada<>();
+        pilha.empilhar(10);
+        pilha.empilhar(20);
+        pilha.empilhar(30);
 
         System.out.println("=== Demonstração de Pilha ===");
-        System.out.println("Topo atual: " + pilha.peek());
-        System.out.println("Removendo topo: " + pilha.pop());
-        System.out.println("Novo topo: " + pilha.peek());
+        System.out.println("Topo atual: " + pilha.topo());
+        System.out.println("Removendo topo: " + pilha.desempilhar());
+        System.out.println("Novo topo: " + pilha.topo());
     }
 }

@@ -1,4 +1,4 @@
-# edl20262
+# Estrutura de Dados Lineares - 2026.2
 Repositório da disciplina de Estrutura de Dados Lineares para o curso de Tecnologia e Análise Desenvolvimento de Sistemas, semestre 2026.2.
 
 ## Estrutura inicial do projeto

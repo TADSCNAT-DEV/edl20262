@@ -34,7 +34,7 @@ public class FilaEncadeada<T> {
         return valor;
     }
 
-    public T primeiro() {
+    public T obterPrimeiro() {
         validarNaoVazia();
         return inicio.valor;
     }

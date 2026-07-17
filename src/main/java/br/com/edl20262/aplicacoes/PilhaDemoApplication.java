@@ -11,8 +11,8 @@ public class PilhaDemoApplication {
         pilha.empilhar(30);
 
         System.out.println("=== Demonstração de Pilha ===");
-        System.out.println("Topo atual: " + pilha.topo());
+        System.out.println("Topo atual: " + pilha.obterTopo());
         System.out.println("Removendo topo: " + pilha.desempilhar());
-        System.out.println("Novo topo: " + pilha.topo());
+        System.out.println("Novo topo: " + pilha.obterTopo());
     }
 }

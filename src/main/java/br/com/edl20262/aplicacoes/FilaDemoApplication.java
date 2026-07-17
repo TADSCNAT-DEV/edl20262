@@ -11,8 +11,8 @@ public class FilaDemoApplication {
         fila.enfileirar("Aluno C");
 
         System.out.println("=== Demonstração de Fila ===");
-        System.out.println("Primeiro da fila: " + fila.primeiro());
+        System.out.println("Primeiro da fila: " + fila.obterPrimeiro());
         System.out.println("Removendo primeiro: " + fila.desenfileirar());
-        System.out.println("Próximo da fila: " + fila.primeiro());
+        System.out.println("Próximo da fila: " + fila.obterPrimeiro());
     }
 }

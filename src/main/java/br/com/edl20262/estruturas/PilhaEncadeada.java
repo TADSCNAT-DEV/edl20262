@@ -21,7 +21,7 @@ public class PilhaEncadeada<T> {
         return valor;
     }
 
-    public T topo() {
+    public T obterTopo() {
         validarNaoVazia();
         return topo.valor;
     }
